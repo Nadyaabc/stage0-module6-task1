@@ -17,9 +17,3 @@ public class Animal {
 
 
 }
-/*Add a methods getDescription(),
-
-witch would use class fields and return a string with such pattern
-"This animal is mostly (color). It has (numberOfPaws) paws and ('a'/'no' ->
-depends on value of hasFur) fur."
- */
