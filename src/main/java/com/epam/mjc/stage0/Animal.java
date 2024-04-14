@@ -4,7 +4,11 @@ public class Animal {
     private int numberOfPaws;
     private boolean hasFur;
     public Animal(String color, int numberOfPaws, boolean hasFur)
-    {}
+    {
+        this.color = "red";
+        this.numberOfPaws = 4;
+        this.hasFur = true;
+    }
     public String getDescription()
     {
         String description = "This animal is mostly " + color + ". It has " + numberOfPaws + " paw";
