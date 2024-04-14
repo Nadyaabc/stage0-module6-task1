@@ -11,10 +11,10 @@ public class Animal {
     }
     public String getDescription()
     {
-        String description = "This animal is mostly " + color + ". It has " + numberOfPaws + " paw";
-        if (numberOfPaws != 1) description += "s ";
+        String description = "This animal is mostly " + this.color + ". It has " + this.numberOfPaws + " paw";
+        if (this.numberOfPaws != 1) description += "s ";
         description += "and ";
-        if (hasFur) description += "a fur.";
+        if (this.hasFur) description += "a fur.";
         else description += "no fur.";
         return description;
     }
